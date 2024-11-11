@@ -1,0 +1,170 @@
+#contact{
+    background-color: #a399ff;
+    color: #0c0069;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    & h2{
+        margin-left: 10px;
+        margin-bottom: 50px;
+    }
+}
+
+.titlecont {
+    margin-left: 50%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 250%;
+}
+
+.info-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reso{
+    width: 300px;
+    margin:  10px;
+    text-align: left;
+
+    & div{
+        display: flex;
+        align-items: center;
+        margin: 20px;
+
+        & i{
+            font-size: 45px;
+            margin: 10px;
+        }
+    }
+}
+
+.cart{
+    margin-left:  50px;
+}
+
+
+/****** footer ***************/
+
+footer{
+    background-color: #6d5cff;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgfoot{
+    width: 300px;
+}
+
+.detail-foot{
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-sm{
+    max-width: 200px;
+    margin: 15px;
+
+    & h3{
+        color: white;
+        font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+
+    & ul{
+        padding: 0px;
+    }
+
+    & li{
+        margin-bottom: 10px;
+        list-style: none;
+    }
+
+    & a{
+        font-weight: 600;
+        font-size: 16px;
+        text-decoration: none;
+        color: #0c0069;
+    }
+
+    & [type="text"]{
+        outline: none;
+        border: solid 2px #0c0069;
+        height: 20px;
+        margin-bottom: 5px;
+    }
+
+    & [type="submit"]{
+        border: solid 2px #0c0069;
+        color: white;
+        background-color: #0c0069;
+    }
+
+    & p{
+        display: flex;
+
+        & i{
+            cursor: pointer;
+            color: #0c0069;
+            margin: 5px;
+            font-size: 30px;
+
+            &:hover{
+                color: #6d5cff;
+                background-color: #0c0069;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 950px) {
+
+    .cart{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 850px) {
+    .titlecont {
+        margin-left: 30%;
+    }
+
+    .info-contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .container{
+        flex-direction: column;
+    }
+
+    .imgfoot{
+        margin: 20px 0px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .titlecont {
+        font-size: 200%;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .titlecont {
+        font-size: 150%;
+    }
+}

@@ -1,0 +1,147 @@
+.avantage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: -1;
+}
+
+.container-avantage{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+}
+
+.detail-avant{
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 10px 6%;
+    padding: 10px 5px;
+}
+
+#icon-avan{
+    font-size: 35px;
+    margin: 10px;
+    color: #6d5cff;
+}
+
+.detail-info h3{
+    color: #6d5cff;
+}
+
+.detail-info h3+h4, .detail-info h3{
+    margin: 5px;
+}
+
+/**<!----- TARIF ---------> */
+
+.tarif{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    position: relative;
+    z-index: -1;
+}
+
+.tarif h3{
+    color: red;
+    margin-left: 10px;
+}
+
+.container-tarif{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+}
+    50% {
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+}
+    100% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+}
+
+.pack-tarif{
+    margin: 0px 25px;
+    height: 320px;
+    width: 220px;
+    background-color: #6d5cff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 10px;
+    animation: zoom 2s infinite;
+
+    & span{
+        color: black;
+    }
+}
+
+.pack-tarif:hover{
+    box-shadow: 0px 2px 20px 5px blue;
+}
+
+
+.pack-tarif h4{
+    margin-bottom: 0px;
+    color: white;
+}
+.pack-tarif h5{
+    margin: 7px 0px;
+    font-size: 15px;
+}
+
+.pack-tarif [type="button"]{
+    background-color: #1300ad;
+    color: white;
+    border-radius: 15px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+@media only screen and (max-width: 780px){
+
+    .container-tarif{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pack-tarif{
+        margin: 25px 5px;
+    }
+}

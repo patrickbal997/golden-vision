@@ -1,0 +1,181 @@
+/* ------- SECTION A PROPOS CSS ---------*/
+#à\20propos{
+    /*min-height: 500px;*/
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px;
+    z-index: -1;
+    
+}
+.cercle1{
+    width: 350px;
+    height: 350px;
+    border: 2px solid #6d5cff;
+    border-radius: 100%;
+    margin: auto;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    position: relative;
+    
+    
+}
+.cercle1::before{
+    position: absolute;
+    content: "";
+    border: 2px solid #6d5cff;
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    top: 30px;
+    bottom: 30px;
+    left: 30px;
+    z-index: 0;
+}
+
+.cercle1::after{
+    position: absolute;
+    content: "";
+    background-color: #6d5cff;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    top: 130px;
+    left: 130px;
+    z-index: 0;
+}
+
+/*#à\20propos h1{
+    position: absolute;
+    z-index: 1;
+}*/
+.titleSEC{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    margin-top: 50px;
+    margin-left: 10%;
+    color: #0c0069;
+    font-size: 250%;
+}
+.container-text{
+    position: absolute;
+    z-index: 2;
+display: flex;
+width: 90%;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 80px;
+}
+.textpropos1{
+    width: 50%;
+    height: 50%;
+    font-size: 165%;
+    padding: 20px;
+    margin: 0px;
+}
+.textpropos2{
+    width: 50%;
+    height: 50%;
+    font-size: 165%;
+    padding: 20px;
+    margin: 0px;
+}
+@media only screen and (max-width: 1000px){
+
+    .container-text{
+    margin-top: 80px;
+    }
+
+    .textpropos1{
+        font-size: 150%;
+    }
+    .textpropos2{
+        font-size: 150%;
+    }
+}
+
+@media only screen and (max-width: 850px){
+
+
+    #à\20propos{
+        height: 600px;
+        padding: 40px 0px;
+    }
+
+    .container-text{
+        flex-wrap: wrap;
+        width: 70%;
+        margin-top: 10px;
+    }
+
+    .textpropos1{
+        width: 100%;
+        font-size: 147%;
+    }
+    .textpropos2{
+        width: 100%;
+        font-size: 147%;
+    }
+}
+
+@media only screen and (max-width: 550px){
+
+
+    #à\20propos{
+        height: 550px;
+    }
+
+    .titleSEC{
+        font-size: 200%;
+    }
+    .container-text{
+        flex-wrap: wrap;
+        width: 85%;
+    }
+
+    .textpropos1{
+        width: 100%;
+        font-size: 130%;
+    }
+    .textpropos2{
+        width: 100%;
+        font-size: 130%;
+    }
+}
+
+@media only screen and (max-width: 400px){
+
+    #à\20propos{
+        height: 600px;
+    }
+
+    .titleSEC{
+        font-size: 150%;
+    }
+    .container-text{
+        flex-wrap: wrap;
+        width: 95%;
+        margin-top: 20px;
+    }
+    .cercle1{
+        width: 250px;
+        height: 250px;
+    }
+
+    .cercle1::before{
+        width: 150px;
+        height: 150px;
+    }
+
+    .cercle1::after{
+        top: 80px;
+        left: 80px;
+    }
+}
