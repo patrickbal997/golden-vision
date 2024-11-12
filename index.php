@@ -70,7 +70,8 @@
      data-rotate='[ "GOLDEN VISION..."]'>
     </span></h1>
     <p>votre partenaire de confiance dans l'univers de l'immobilier. </p>
-    <p>Nous sommes une agence dédiée à la gestion de biens résidentiels, à la vente et à la location de logements de qualité.</p>
+    <p>nous nous efforçons de rendre votre expérience immobilière simple et agréable.
+    </p>
     </div>
     </section>
 <!----- SECTION ACCUEIL -------->

@@ -2,7 +2,8 @@
         <h1 class="titleServ">NOS SERVICES</h1>
         <div class="containerServ">
         <p class="textserv">
-        Golden vision immobilier dispose de plusieurs résidences partout à Abidjan et Assini... Nous avons que des résidences de rêves pour vos moments inoubliables
+        Chez Golden Vision, nous vous proposons un service de location de résidences unique, 
+        avec une sélection exclusive de logements à Abidjan et Assini. 
         </p>
         <div class="textserv1">
             <div style="width: 100%;">
